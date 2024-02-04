@@ -12,7 +12,7 @@ Variables to be removed because they are neither target nor features: EIN,NAME
 Number of neurons: 10, 5, 1  
 Number of layers: 3  
 Acitvation functions: relu, sigmoid  
-Reason for choice: the input data is quite small around with 9 features and 34,300 rows, so we do not need a complicated model. And relu as the activation functions in the hidden layers because it helps to mitigate the vanishing gradient problem during backpropagation. signmoid is chosen for the activation function for the output layer because it is a good choice for binary classification problems, where the output can be interpreted as the probability of the input data belonging to the positive class.
+Reason for choice: the input data is quite small around with 9 features and 34,300 rows, so we do not need a complicated model. And relu as the activation functions in the hidden layers because it helps to mitigate the vanishing gradient problem during backpropagation. Sigmoid is chosen for the activation function for the output layer because it is a good choice for binary classification problems, where the output can be interpreted as the probability of the input data belonging to the positive class.
 
 I was not able to achieve the target model performance (75%) but only reached 73%.  
 
